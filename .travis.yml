@@ -5,7 +5,7 @@ dist: trusty
 os: linux
 branches:
   only:
-    - master
+    - travis-ci
 
 before_script:
   - npm i -g @angular/cli
